@@ -1,0 +1,382 @@
+.home-menu-items{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid white;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 80%;
+    
+}
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    
+}
+/*==========#==========*/
+
+html{
+    height: 100%;
+    
+}
+
+.body-home{
+    background-image: url(images/background-port.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*==========HOME PAGE==========*/
+
+#home-logo-img {
+    width: 250px;
+    display: block;
+    margin: auto;
+    padding: 15px 10px 10px 10px;
+    
+}
+
+#home-logo-text {
+    width: 75%;
+    display: block;
+    margin: auto;
+    padding: 15px;
+}
+
+.return{
+    float: left;
+    display: block;
+    width: 100;
+    font-size: 15px;
+    height: 17px;
+    font-family: serif;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 17px;
+    padding-right:2px;
+}
+.return i{
+    float: left;
+    padding: 0px 0px 0px 5px;
+    color: white;
+}
+
+
+
+
+
+/*======================BOTTOM-TABS======================*/
+
+#tabs-bottom{
+   position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 500;
+    width: 100%;
+    height: 50px;
+    background-color: lawngreen;
+}
+#tabs-bottom .return{
+    float: left;
+    display: block;
+    width: 100;
+    font-size: 15px;
+    height: 17px;
+    font-family: serif;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 17px;
+    padding-right:2px;
+}
+#tabs-bottom .return i{
+    float: left;
+    padding: 0px 0px 0px 5px;
+    color: white;
+}
+#tabs-bottom i{
+    float: right;
+    padding: 17px 5px 0px 0px;
+    color: white;
+    
+}
+
+
+
+
+
+
+
+/*==========MEALS-PAGE==========*/
+
+
+
+#meals{
+    padding-top: 80px;
+    
+}
+
+.meals-list a{
+    text-decoration: none;
+   
+    
+    
+}
+
+.meals-list-items{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid white;
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+    width: 98%;
+}
+
+.meals-list-items h1{
+    font-weight: bold;
+    font-size: 20px;
+    color: lawngreen;
+    padding-left: 10px;
+    
+}
+.meals-list-items p{
+    font-size: 12px;
+    font-style: italic;
+    color: white;
+    margin-top: -7px;
+    padding-left: 10px;
+    
+}
+
+.meals-list-items i{
+    float: right;
+    color: lawngreen;
+    padding-right: 2px;
+    
+}
+
+
+
+.body-meals{
+    background-image: url(images/background-board-port.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+/*==========HEADER==========*/
+
+
+.header{
+    background-color: lawngreen;
+    width: 100%;
+    height: 50px;
+    top: 0;
+    position: fixed;
+    overflow: hidden;
+    text-align: center;
+    
+}
+   
+
+.header i{
+    float: left;
+    padding: 17px 0px 0px 5px;
+    color: white;
+    
+}
+
+.header img{
+    width: 200px;
+    height: 40px;
+    padding-top: 0;
+    padding-bottom: 5px;
+    padding-right: 25px;
+    
+}
+    
+    
+    
+/*==========RECIPE-PAGE==========*/
+
+#recipe{
+    padding-top: 50px;
+}
+.body-recipe{
+    background-image: url(images/background-board-port.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+/*==========RECIPE-DETAILS==========*/
+
+.recipe-details img{
+    width: 100%;
+    
+
+}
+
+.recipe-details h1{
+    font-size: 20px;
+    font-weight: bold;
+    color: lawngreen;
+    text-align: center;
+    border: 5px solid white;
+    margin: 0px;
+    padding: 2px;
+    
+}
+.recipe-details h2{
+    font-size: 20px;
+    text-align: left;
+    margin: 0;
+    margin-left: 10px;
+    color: lawngreen;
+    padding-bottom: 5px;
+    
+}
+.recipe-details h3{
+    font-size: 15px;
+    text-align: left;
+    margin: 0;
+    margin-left: 10px;
+    color: lawngreen;
+    padding-bottom: 5px
+}
+
+.recipe-details-info{
+    
+    margin: auto;
+    
+}
+
+
+.recipe-details-info p{
+    
+    font-size: 13px;
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+    color: white;
+}
+
+
+.recipe-details-ingredients label{
+    line-height: 15px;
+    margin-left: 20px;
+    color: white;
+    
+}
+.recipe-details-steps{
+    padding-top: 25px;
+    
+    
+}
+
+
+.recipe-details-steps ol{
+    margin-left: 10px;
+    padding-left: 15px;
+    color: white;
+}
+.recipe-details-notes{
+    margin-left: 2px;
+    padding-top: 15px;
+    
+}
+.recipe-details-notes ul{
+    padding-left: 15px;
+    color: white;
+}
+
+.recipe-details .gallery{
+     margin: auto;
+     width:75%;
+}
+
+
+/*==========RESPONSIVE LAYOUTS==========*/
+
+@media only screen and (min-width:600px){
+    #meals{
+        width: 80%;
+        margin: auto;
+        
+    }
+    #recipe{
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width:1000px){
+    
+    #meals{
+        width: 60%;
+        margin: auto;
+    }
+    
+    #recipe{
+        width: 60%;
+        margin: auto;
+        
+    }
+}
+
+@media only screen and (min-width:1500px){
+    
+    #meals{
+        width: 40%;
+        margin: auto;
+    }
+    
+    #recipe{
+        width: 40%;
+        margin: auto;
+        
+    }
+}
+
+@media only screen and (min-width:720px){
+    .body-home{
+        background-image: url(images/background-land.jpg);
+    }
+    
+    .body-meals{
+        background-image: url(images/background-board-land.jpg);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+    
